@@ -1,0 +1,24 @@
+body{
+    background-color: rgb(126, 188, 190);
+    margin: 50%;
+}
+
+.box {
+    background-color: #aaa;
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    overflow: hidden;
+    position: relative;
+  }
+  
+  .box img {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+  }
+
+  div.con {
+	width: 150px;
+	display: inline-block;
+}
